@@ -1,0 +1,27 @@
+USE  employees_db;
+
+INSERT INTO employees (employee_name, email, contact, department, gender) VALUES
+('Jane Smith', 'janesmith@example.com', '0987654321', 'Sales', 'Female'),
+('Tom Lee', 'tomlee@example.com', '3456789012', 'Marketing', 'Male'),
+('Samantha Brown', 'samanthabrown@example.com', '5678901234', 'Product Management', 'Female'),
+('Mike Johnson', 'mikejohnson@example.com', '6789012345', 'Engineering', 'Male'),
+('Emily Davis', 'emilydavis@example.com', '4567890123', 'Human Resources', 'Female'),
+('David Kim', 'davidkim@example.com', '7890123456', 'Finance', 'Male'),
+('Olivia Lee', 'olivialeee@example.com', '9012345678', 'Engineering', 'Female'),
+('Adam Parker', 'adamparker@example.com', '2345678901', 'Sales', 'Male'),
+('Grace Chen', 'gracechen@example.com', '4567890123', 'Marketing', 'Female'),
+('Benjamin Lee', 'benjaminlee@example.com', '7890123456', 'Product Management', 'Male'),
+('Sophia Wang', 'sophiawang@example.com', '1234567890', 'Engineering', 'Female'),
+('Kevin Kim', 'kevinkim@example.com', '2345678901', 'Human Resources', 'Male'),
+('Ava Zhang', 'avazhang@example.com', '3456789012', 'Finance', 'Female'),
+('Jason Lee', 'jasonlee@example.com', '6789012345', 'Engineering', 'Male'),
+('Isabella Chen', 'isabellachen@example.com', '9012345678', 'Sales', 'Female'),
+('Ryan Patel', 'ryanpatel@example.com', '2345678901', 'Marketing', 'Male'),
+('Mia Gupta', 'miagupta@example.com', '4567890123', 'Product Management', 'Female'),
+('Erica Kim', 'ericakim@example.com', '6789012345', 'Engineering', 'Female'),
+('Luke Park', 'lukepark@example.com', '1234567890', 'Human Resources', 'Male'),
+('Chloe Wong', 'chloewong@example.com', '3456789012', 'Finance', 'Female'),
+('Nicholas Chen', 'nicholaschen@example.com', '5678901234', 'Engineering', 'Male'),
+('Lily Lee', 'lilylee@example.com', '7890123456', 'Sales', 'Female'),
+('Daniel Nguyen', 'danielnguyen@example.com', '9012345678', 'Marketing', 'Male'),
+('Hannah Kim', 'hannahkim@example.com', '2345678901', 'Product Management', 'Female');
