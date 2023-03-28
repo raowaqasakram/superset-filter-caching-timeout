@@ -1,0 +1,87 @@
+dashboard_title: Employees Report
+description: null
+css: ''
+slug: null
+uuid: 058aaeae-624c-464d-8927-504dc1b9af4e
+position:
+  CHART-bqnf7r1GME:
+    children: []
+    id: CHART-bqnf7r1GME
+    meta:
+      chartId: 403
+      height: 88
+      sliceName: employeesChart
+      sliceNameOverride: .
+      uuid: 9394eb31-bf93-428b-9842-91f27311944e
+      width: 12
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-uJkmtVazfn
+    type: CHART
+  DASHBOARD_VERSION_KEY: v2
+  GRID_ID:
+    children:
+    - ROW-uJkmtVazfn
+    id: GRID_ID
+    parents:
+    - ROOT_ID
+    type: GRID
+  HEADER_ID:
+    id: HEADER_ID
+    meta:
+      text: Employees Report
+    type: HEADER
+  ROOT_ID:
+    children:
+    - GRID_ID
+    id: ROOT_ID
+    type: ROOT
+  ROW-uJkmtVazfn:
+    children:
+    - CHART-bqnf7r1GME
+    id: ROW-uJkmtVazfn
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+metadata:
+  show_native_filters: true
+  shared_label_colors: {}
+  color_scheme: ''
+  refresh_frequency: 0
+  expanded_slices: {}
+  label_colors: {}
+  timed_refresh_immune_slices: []
+  default_filters: '{}'
+  chart_configuration: {}
+  native_filter_configuration:
+  - id: NATIVE_FILTER-u98MAmlvX
+    controlValues:
+      enableEmptyFilter: false
+      defaultToFirstItem: false
+      multiSelect: true
+      searchAllOptions: false
+      inverseSelection: false
+    name: Department
+    filterType: filter_select
+    targets:
+    - column:
+        name: department
+      datasetUuid: f9c01b87-ae2b-464d-99d2-ac20da1f800d
+    defaultDataMask:
+      extraFormData: {}
+      filterState: {}
+      ownState: {}
+    cascadeParentIds: []
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded: []
+    type: NATIVE_FILTER
+    description: ''
+    chartsInScope: []
+    tabsInScope: []
+version: 1.0.0

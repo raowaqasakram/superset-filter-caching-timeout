@@ -1,0 +1,32 @@
+slice_name: employeesChart
+viz_type: table
+params:
+  adhoc_filters: []
+  all_columns: []
+  color_pn: true
+  conditional_formatting: []
+  datasource: 612__table
+  extra_form_data: {}
+  groupby:
+  - id
+  - department
+  - employee_name
+  - email
+  - contact
+  - gender
+  metrics: []
+  order_by_cols: []
+  order_desc: true
+  percent_metrics: []
+  query_mode: aggregate
+  row_limit: 100
+  server_page_length: 10
+  show_cell_bars: true
+  table_timestamp_format: smart_date
+  time_grain_sqla: P1D
+  time_range: No filter
+  viz_type: table
+cache_timeout: null
+uuid: 9394eb31-bf93-428b-9842-91f27311944e
+version: 1.0.0
+dataset_uuid: e1a797dc-f128-4f0e-b698-346a0bc49635
